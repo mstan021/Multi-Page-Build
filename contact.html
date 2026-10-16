@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us! ₊˚⊹</title>
+    <link rel="stylesheet" href="stylesheet.css">    
+</head>
+    
+<body>
+ 
+<!--header nav yeag-->    
+    <header class="headerHolder">
+        <div class="prostheticHeader">
+        <h1>Contact Form and Retail Information!</h1>
+        </div>
+    </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="topTen.html">My Top 10 Games</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+  
+<!--main section, contact form-->
+    <main class="contactMain">
+        
+    <h2 class="contactHeader">We are commited to helping you!</h2>
+        
+        <main class="textBox">
+            <p class="indent">We understand the importance and impact that gaming holds in our lives, and for most people in this age, that importance has been in your life since childhood! We are committed to making sure you are able to come back to dearly beloved games from your childhood that are mostly out of reach now due to the digital age, so that way you can enjoy them once more!</p>
+            <p class="indent">Please allow us to assist you in finding resources that can help you digitally emulate, or purchase the market-available games again. Once we reach out to you and get further information on what specifically you are looking for, we can help with reputable retail sellers near you, recommending trustworthy and fairly-priced online stores, or even get direct shop or emulation links and resources for the exact game you were searching for!</p>
+            <p class="indent">If this service sounds like it would benefit you, please accurately fill out the Contact Form! If you submit inaccurate information, we may not be able to reach you, which is why we ask for an e-mail and a phone number. Despite this failsafe, if both pieces of information are incorrect we will not be able to help you, so please double check before submission! Thank you.</p>
+        </main>
+        
+        <article class="mainBox">
+            
+            <fieldset>
+            <legend>Contact Form</legend>
+            <form action="submitted.html" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" name="fullname" title="First and Last." required>
+                </div>
+                <div>
+                    <label for="zip">ZIP:</label>
+                    <input id="zip" name="zip" pattern="[0-9]{5}" title="Uses 5 digits." required>
+                </div>
+                <div>
+                    <label for="tel">Phone #:</label>
+                    <input id="tel" name="tel" pattern="[0-9]{10}" title="Uses 10 digits." required>
+                </div>
+                <div>
+                    <label for="email">E-Mail:</label>
+                    <input id="email" name="email" title="Include an @."  aria-describedby="errorMail" aria-invalid="true" required>
+                    <p id="errorMail" class="error">Please enter a valid e-mail address. </p>
+                </div>
+                <label><input type="checkbox" name="news" value="yes">Get e-mails and texts for site updates?</label>
+                
+                <button type="submit">Submit</button>
+            </form>
+            </fieldset>
+        </article>
+        
+    </main>
+ 
+<!--copyrite-->
+    <footer>
+    <p>© CGS2820C-1803 || Melody Stanley || Began work on 10/9/2026</p>
+    </footer>
+    
+</body>
+    
+</html>
